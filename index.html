@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cattedrale di San Feliciano - Museo Digitale</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://www.paypal.com/sdk/js?client-id=[INSERIRE_PAYPAL_CLIENT_ID]"></script>
+  </head>
+  <body>
+    <header class="top-bar">
+      <div class="top-bar__inner">
+        <div class="top-bar__brand">
+          <span class="top-bar__title">Cattedrale di San Feliciano</span>
+          <span class="top-bar__subtitle">Museo digitale</span>
+        </div>
+        <nav class="top-bar__nav">
+          <a href="index.html" class="top-bar__link top-bar__link--active"
+            >Home</a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <main class="page page--home">
+      <section class="hero">
+        <div class="hero__content">
+          <h1 class="hero__title">Percorso digitale della Cattedrale</h1>
+          <p class="hero__text">
+            Vivi la Cattedrale di San Feliciano attraverso un percorso guidato
+            in 5 sezioni, pensato per accompagnarti nella visita reale con
+            contenuti multimediali esclusivi.
+          </p>
+        </div>
+        <div class="hero__image">
+          <img
+            src="https://via.placeholder.com/400x300"
+            alt="Interno della Cattedrale di San Feliciano"
+          />
+        </div>
+      </section>
+
+      <section class="info-grid">
+        <article class="info-card">
+          <h2 class="info-card__title">Orari di visita</h2>
+          <p class="info-card__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+            suscipit, nisl vel cursus hendrerit, lorem ipsum feugiat justo, non
+            commodo lacus turpis ut lorem.
+          </p>
+        </article>
+
+        <article class="info-card">
+          <h2 class="info-card__title">Informazioni pratiche</h2>
+          <p class="info-card__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+            placerat massa ut libero pretium, vitae bibendum lacus dignissim.
+          </p>
+        </article>
+
+        <article class="info-card">
+          <h2 class="info-card__title">Contatti</h2>
+          <p class="info-card__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae
+            arcu sed justo laoreet ultricies sed vel mauris.
+          </p>
+        </article>
+      </section>
+
+      <section class="checkout">
+        <h2 class="checkout__title">Acquista il biglietto digitale</h2>
+        <p class="checkout__text">
+          Completa l'acquisto del biglietto per accedere al percorso museale
+          digitale. Dopo il pagamento riceverai un'email con il link di accesso
+          personale.
+        </p>
+        <a
+          href="sezione1.html?token=SF2024"
+          class="button button--primary"
+        >
+          Accedi al percorso digitale (test)
+        </a>
+        <div id="paypal-button-container" class="checkout__paypal"></div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
+
