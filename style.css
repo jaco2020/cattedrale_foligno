@@ -380,6 +380,8 @@ body {
   margin-top: 4px;
   display: flex;
   justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
 }
 
 .page--confirmation {
